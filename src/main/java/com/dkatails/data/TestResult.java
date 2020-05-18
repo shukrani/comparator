@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
+/**
+ * A generic class TestResult holds the results of multiple comparisons.
+ * @param <T>
+ * @param <R>
+ */
 public class TestResult<T, R> {
 
     private List<Pair<Pair<T, T>, R>> rows;

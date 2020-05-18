@@ -1,5 +1,8 @@
 package com.dkatails.data;
 
+/**
+ * State used to store each comparison results.
+ */
 public enum State {
     ERROR("error"), NOT_EQUEAL("not equals"), EQUAL("equals");
 
